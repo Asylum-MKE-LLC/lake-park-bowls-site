@@ -13,3 +13,7 @@ a{color:var(--club)}
 .soft{color:var(--soft)}
 nav{display:flex;gap:18px;flex-wrap:wrap;margin-top:32px;padding-top:16px;border-top:1px solid var(--line)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 18px 8px;margin:18px 0}
+/* Google's badge artwork carries its own clear space; pull it left so its visible edge lines up with the text. */
+.store{margin:20px 0 12px -11px;line-height:0}
+.store img{width:172px;height:auto}
+.small{font-size:13px}
